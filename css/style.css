@@ -3,12 +3,29 @@
 :root {
   --primary: #5956e8;
   --white: #ffffff;
+  --black: #181818;
 }
 * {
   font-family: "Inter", sans-serif;
 }
 .container {
   max-width: 1170px;
+}
+.title {
+  text-align: center;
+}
+.title-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 20px;
+}
+.title-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(24, 24, 24, 0.7);
+  width: 542px;
 }
 /* ========== Navbar css =========== */
 header {
@@ -51,8 +68,8 @@ header {
   color: var(--white);
   max-width: 542px;
 }
-#banner button{
-    background: var(--white);
+#banner button {
+  background: var(--white);
   outline: none;
   font-size: 18px;
   font-weight: 500;
@@ -62,3 +79,9 @@ header {
   margin-top: 30px;
 }
 /* ========== Banner css =========== */
+/* ========== Services css =========== */
+#service {
+  margin-top: 83px;
+}
+
+/* ========== Services css =========== */
