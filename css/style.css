@@ -26,6 +26,7 @@
   line-height: 27px;
   color: rgba(24, 24, 24, 0.7);
   max-width: 542px;
+  margin-bottom: 50px;
 }
 /* ========== Navbar css =========== */
 header {
@@ -66,7 +67,7 @@ header {
   font-weight: 400;
   line-height: 27px;
   color: var(--white);
-  max-width: 542px;
+  max-width: 542px !important;
 }
 #banner button {
   background: var(--white);
@@ -82,6 +83,46 @@ header {
 /* ========== Services css =========== */
 #service {
   margin-top: 83px;
+}
+.serviceicon {
+  font-size: 37px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  padding: 17px;
+}
+.serviceitem_heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--black);
+  margin-top: 30px;
+}
+.serviceitem_para {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(24, 24, 24, 0.7);
+  max-width: 274px;
+  margin-top: 20px;
+}
+.serviceitem {
+  border: 1px solid #e3e3e3;
+  max-width: 370px;
+  padding: 63px 48px;
+  border-radius: 10px;
+}
+.serviceitem:hover {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+}
+.serviceitem:hover .serviceicon {
+  background: var(--primary);
+  color: var(--white);
+  transition: 0.4s;
+}
+.serviceitemWrapper{
+  row-gap: 30px;
 }
 
 /* ========== Services css =========== */
