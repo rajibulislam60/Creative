@@ -164,13 +164,21 @@ header {
 }
 /* ========== Portfolio css =========== */
 /* ========== Team member css =========== */
-.memberitem{
+.teammemberWrapper {
+  row-gap: 30px;
+}
+.memberitem {
   position: relative;
 }
-.memberoverlay{
+.memberoverlay {
   width: 100%;
   height: 444px;
-  background: linear-gradient(0deg, rgb(89, 86, 232, .75), transparent, transparent);
+  background: linear-gradient(
+    0deg,
+    rgb(89, 86, 232, 0.75),
+    transparent,
+    transparent
+  );
   position: absolute;
   bottom: 0;
   left: 0;
@@ -186,15 +194,79 @@ header {
   color: var(--white);
   padding-top: 25px;
 }
-.memberoverlay_text h5{
+.memberoverlay_text h5 {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
   color: var(--white);
 }
-.memberoverlay_text{
+.memberoverlay_text {
   position: absolute;
   text-align: center;
   bottom: 34px;
 }
 /* ========== Team member css =========== */
+/* ========== Customer css =========== */
+#customer {
+  margin: 142px 0;
+}
+.customeritemWrapper{
+  row-gap: 30px;
+}
+.customer__title__heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--black);
+  max-width: 603px;
+  margin-bottom: 20px;
+}
+.customer__title__pera {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(24, 24, 24, 0.7);
+  line-height: 27px;
+  max-width: 542px;
+  margin-bottom: 20px;
+}
+.staricon {
+  color: #fbbf25;
+}
+.customer__staricon ul{
+  display: flex;
+  margin-top: 30px;
+}
+.customer__details__pera {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(24, 24, 24, 0.7);
+  line-height: 27px;
+  width: 274px;
+  margin-bottom: 20px;
+}
+.customer__details__heading{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+  line-height: 27px;
+}
+.customer__details__subheading{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5D5D5D;
+  line-height: 27px;
+}
+.quoteicon{
+  position: absolute;
+  font-size: 64px;
+  color: rgba(89, 86, 232, .1);
+  bottom: 24px;
+  right: 91px;
+}
+.customer__item{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 48px;
+  margin-top: 50px;
+  position: relative;
+}
+/* ========== Customer css =========== */
