@@ -270,3 +270,65 @@ header {
   position: relative;
 }
 /* ========== Customer css =========== */
+/* ========== News css =========== */
+#news{
+  margin: 146px 0;
+}
+.newsitemWrapper{
+  row-gap: 30px;
+}
+.news__body__date{
+  gap: 30px;
+  margin-top: 19px;
+}
+.news__admin{
+  gap: 5px;
+}
+.news__date{
+  gap: 5px;
+}
+.news__heading{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+  max-width: 271px;
+  margin-top: 10px;
+}
+.news__pera{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5D5D5D;
+  line-height: 27px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+/* ========== News css =========== */
+/* ========== Footer css =========== */
+.footer__pera{
+  max-width: 300px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #5D5D5D;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.footer__icon{
+  gap: 40px;
+  font-size: 24px;
+  color: var(--primary);
+}
+.footer__item h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--black);
+}
+.footer__item ul{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #5D5D5D;
+}
+/* ========== Footer css =========== */
