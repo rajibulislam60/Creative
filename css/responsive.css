@@ -1,0 +1,113 @@
+@media (min-width:320px) and (max-width:575px) {
+    header {
+        padding: 5px 0;
+    }
+    .nav__logo{
+        width: 65%;
+    }
+    .nav-item {
+        margin-left: 0px;
+    }
+    #banner {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    #banner h1 {
+        font-size: 30px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    #banner button {
+        font-size: 16px;
+        padding: 6px 10px;
+        margin-top: 5px;
+    }
+    .align-items-center img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #service {
+        margin-top: 20px;
+    }
+    .title-heading {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .title-subheading {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .serviceicon {
+        font-size: 25px;
+        padding: 12px;
+    }
+    .serviceitem_heading {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .serviceitem_para {
+        line-height: 22px;
+        margin-top: 12px;
+    }
+    .serviceitem {
+        padding: 30px 25px;
+    }
+
+    .portfolioitem img{
+        width: 100%;
+    }
+
+    #customer {
+        margin: 50px 0;
+    }
+    .customer__title__heading {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    .customer__title__pera {
+        font-weight: 400;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+    .customer__item {
+        padding: 20px;
+        margin-top: 5px;
+    }
+    .customer__details__pera {
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+
+    #news {
+        margin: 50px 0;
+    }
+    .news img{
+        width: 100%;
+    }
+    .news__pera {
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .logo{
+        width: 25%;
+    }
+    .footer__pera {
+        line-height: 22px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .footer__icon{
+        margin-bottom: 15px;
+    }
+    .footer__item h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .footer__item ul {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
